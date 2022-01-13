@@ -1,0 +1,88 @@
+body{
+    font-family: 'Changa', sans-serif;
+    margin: 0;
+}
+/*______________menu______________*/
+.navbar{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.logo{
+    height: 60px;
+}
+
+.menu-holder{
+
+}
+
+.menu{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.menu-link{
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+.menu-link:hover{
+    color: tomato;
+    transition: 0.3s;
+}
+
+.tiny-menu {
+    display: none;
+}
+
+@media all and (max-width: 640px) { 
+    .navbar{
+        display: block;
+    }
+    .tiny-menu{
+        display: block;
+        position: absolute;
+        overflow:hidden;
+        right: 20px;
+        top: 10px;
+    }
+    .tiny-menu img{
+        height: 60px;
+    }
+    .menu-holder{
+        display: none;
+    }
+    .menu-link{
+        padding: 0;
+    }
+    .menu{
+        display: block;
+    }
+    .active{
+        display: block;
+    }
+}
+/*______________Upper Text______________*/
+.marked{
+    color: rgb(0, 255, 155)
+}
+.marked-2{
+    color: rgb(255, 165, 0);
+}
+.w-text{
+    margin: 0px;
+}
+#top-text{
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
