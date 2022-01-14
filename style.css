@@ -2,6 +2,12 @@ body{
     font-family: 'Changa', sans-serif;
     margin: 0;
 }
+.header{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 100, 100)), url('img/bg.jpg');
+    background-blend-mode: saturation;
+    background-size: cover;
+    
+}
 /*______________menu______________*/
 .navbar{
     background-color: rgb(46, 46, 46);
