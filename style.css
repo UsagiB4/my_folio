@@ -1,11 +1,13 @@
 body{
     font-family: 'Changa', sans-serif;
     margin: 0;
+    width: 100%;
 }
 .header{
     background-image: linear-gradient(rgb(0, 0, 0), rgb(100, 100, 100)), url('img/bg.jpg');
     background-blend-mode: saturation;
     background-size: cover;
+    height: 600px;
     
 }
 /*______________menu______________*/
@@ -92,3 +94,67 @@ body{
     justify-content: center;
     text-align: center;
 }
+.w-text:hover{
+    transform: rotate(360deg);
+    transition: 0.3s;
+}
+
+
+/*______________About Me______________*/
+.about-me{
+    background-image: linear-gradient(black, black);
+    padding-bottom: 20px;
+}
+.title-me{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    color: rgb(36, 240, 255);
+}
+/*____________animation_____________*/
+.title-me:hover{
+    animation-name: emoji;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes emoji {
+    0%{color: dodgerblue;}
+    20%{color: gold;}
+    40%{color: fuchsia;}
+    60%{color: greenyellow;}
+    80%{color: cyan;}
+    100%{color: coral;}
+
+}
+/*_________skill____________*/
+.nameLine{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.me{
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    margin: 0;
+    color: dodgerblue;
+    width: 50%;
+}
+.skill-list{
+    list-style: none;
+    position: relative;
+    left: 150px;
+    margin: 0;
+    color: rgb(96, 255, 96);
+    width: 50%;
+}
+.skill{
+    width: 50%;
+    transition: 0.3s;
+}
+.skill:hover{
+    transform: translate(50px);
+    transition: 0.3s;
+}
+
