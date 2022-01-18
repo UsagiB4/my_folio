@@ -126,13 +126,38 @@ body{
     100%{color: coral;}
 
 }
+
+/*__________my image__________*/
+.my-img{
+    position: absolute;
+    left: 800px;
+}
+.my-img img{
+    
+    width: 66.67%;
+    display: flex;
+    filter: drop-shadow(
+    5px 5px 2px rgba(129, 236, 255, 0.404)
+    )
+    drop-shadow(
+    -5px -5px 2px rgba(255, 132, 132, 0.404)
+    );
+}
+
 /*_________skill____________*/
+
 .nameLine{
     text-align: center;
     font-size: 30px;
     margin: 0;
+    color: rgb(124, 251, 255);
+}
+.nameLine sub{
+    font-size: small;
+    font-weight: 200;
 }
 
+/*____________skill sets___________*/
 .me{
     font-size: 20px;
     position: relative;
@@ -156,5 +181,27 @@ body{
 .skill:hover{
     transform: translate(50px);
     transition: 0.3s;
+    color: coral;
 }
 
+/*________Learning Sets________*/
+.learn-list{
+    list-style: none;
+    position: relative;
+    left: 150px;
+    margin: 0;
+    color: rgb(96, 255, 96);
+    width: 50%;
+}
+
+.topic{
+    width: 50%;
+    transition: 0.3s;
+    color: coral;
+}
+
+.topic:hover{
+    transform: translate(50px);
+    color: rgb(96, 255, 96);
+    transition: 0.3s;
+}
