@@ -51,7 +51,7 @@ body{
     display: none;
 }
 
-@media all and (max-width: 640px) { 
+@media all and (max-width: 700px) { 
     .navbar{
         display: block;
     }
@@ -84,9 +84,11 @@ body{
 }
 .marked-2{
     color: rgb(255, 165, 0);
+    margin: 0px;
 }
 .w-text{
     margin: 0px;
+    color: white;
 }
 #top-text{
     font-size: 34px;
@@ -94,7 +96,7 @@ body{
     justify-content: center;
     text-align: center;
 }
-.w-text:hover{
+.ani:hover{
     transform: rotate(360deg);
     transition: 0.3s;
 }
@@ -104,6 +106,7 @@ body{
 .about-me{
     background-image: linear-gradient(black, black);
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 .title-me{
     text-align: center;
@@ -204,4 +207,20 @@ body{
     transform: translate(50px);
     color: rgb(96, 255, 96);
     transition: 0.3s;
+}
+
+/*____media Q____*/
+@media (max-width: 640px){
+    .my-img{
+        left: 10%;
+        position: relative;
+    }
+}
+@media (max-width: 1000px) and (min-width: 680px) {
+    .my-img{
+        left: 50%;
+    }
+    .my-img img{
+        width: 250px;
+    }
 }
