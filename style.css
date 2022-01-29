@@ -24,9 +24,6 @@ body{
     height: 60px;
 }
 
-.menu-holder{
-
-}
 
 .menu{
     list-style: none;
@@ -40,6 +37,7 @@ body{
     display: inline-block;
     font-size: 25px;
     padding-left: 30px;
+    transition: 0.3s;
 }
 
 .menu-link:hover{
