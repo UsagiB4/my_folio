@@ -114,6 +114,7 @@ body{
     padding-top: 30px;
 }
 .title-me{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 40px;
     margin: 0;
@@ -184,12 +185,11 @@ body{
 }
 .skill{
     width: 50%;
-    transition: 0.3s;
+    transition: 0.5s ease-in-out 0s;
 }
 .skill:hover{
-    transform: translate(50px);
-    transition: 0.3s;
-    color: coral;
+    background-color: rgb(28, 28, 48);
+    color: rgb(0, 225, 255);
 }
 
 /*________Learning Sets________*/
@@ -204,14 +204,13 @@ body{
 
 .topic{
     width: 50%;
-    transition: 0.3s;
-    color: coral;
+    transition: 0.3s ease-in-out;
+    color: rgb(217, 255, 0);
 }
 
 .topic:hover{
-    transform: translate(50px);
-    color: rgb(96, 255, 96);
-    transition: 0.3s;
+    background-color: rgb(28, 28, 48);
+    color: rgb(205, 96, 255);
 }
 
 /*____media Q____*/
